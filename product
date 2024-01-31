@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class fun2 {
+    public static double calculatePro(double a, double b) {
+        double pro=a*b;
+        return pro;
+    }
+        public static void main(String[]args) {
+            Scanner sc=new Scanner(System.in);
+            System.out.println("enter number 1:");
+            double a=sc.nextDouble();
+            System.out.println("enter number 2:");
+            double b=sc.nextDouble();
+            double pro=calculatePro(a,b);
+            System.out.println("the product of two numbers is:"+pro);
+        }
+    }
